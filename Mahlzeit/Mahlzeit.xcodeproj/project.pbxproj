@@ -1,0 +1,645 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B59608CD2CBD8A7500FD6102 /* AlertToast in Frameworks */ = {isa = PBXBuildFile; productRef = B59608CC2CBD8A7500FD6102 /* AlertToast */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B57CF6C92CB589DA00B98145 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B57CF6B02CB589D900B98145 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B57CF6B72CB589D900B98145;
+			remoteInfo = Mahlzeit;
+		};
+		B57CF6D32CB589DA00B98145 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B57CF6B02CB589D900B98145 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B57CF6B72CB589D900B98145;
+			remoteInfo = Mahlzeit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B57CF6B82CB589D900B98145 /* Mahlzeit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mahlzeit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B57CF6C82CB589DA00B98145 /* MahlzeitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MahlzeitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B57CF6D22CB589DA00B98145 /* MahlzeitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MahlzeitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		B59608D32CBD977A00FD6102 /* Exceptions for "Mahlzeit" folder in "Mahlzeit" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = B57CF6B72CB589D900B98145 /* Mahlzeit */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		B57CF6BA2CB589D900B98145 /* Mahlzeit */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				B59608D32CBD977A00FD6102 /* Exceptions for "Mahlzeit" folder in "Mahlzeit" target */,
+			);
+			path = Mahlzeit;
+			sourceTree = "<group>";
+		};
+		B57CF6CB2CB589DA00B98145 /* MahlzeitTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MahlzeitTests;
+			sourceTree = "<group>";
+		};
+		B57CF6D52CB589DA00B98145 /* MahlzeitUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MahlzeitUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B57CF6B52CB589D900B98145 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B59608CD2CBD8A7500FD6102 /* AlertToast in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B57CF6C52CB589DA00B98145 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B57CF6CF2CB589DA00B98145 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B57CF6AF2CB589D900B98145 = {
+			isa = PBXGroup;
+			children = (
+				B57CF6BA2CB589D900B98145 /* Mahlzeit */,
+				B57CF6CB2CB589DA00B98145 /* MahlzeitTests */,
+				B57CF6D52CB589DA00B98145 /* MahlzeitUITests */,
+				B57CF6B92CB589D900B98145 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B57CF6B92CB589D900B98145 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B57CF6B82CB589D900B98145 /* Mahlzeit.app */,
+				B57CF6C82CB589DA00B98145 /* MahlzeitTests.xctest */,
+				B57CF6D22CB589DA00B98145 /* MahlzeitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B57CF6B72CB589D900B98145 /* Mahlzeit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B57CF6DC2CB589DA00B98145 /* Build configuration list for PBXNativeTarget "Mahlzeit" */;
+			buildPhases = (
+				B57CF6B42CB589D900B98145 /* Sources */,
+				B57CF6B52CB589D900B98145 /* Frameworks */,
+				B57CF6B62CB589D900B98145 /* Resources */,
+				B55FCD142CB7EB5600CB46EF /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				B57CF6BA2CB589D900B98145 /* Mahlzeit */,
+			);
+			name = Mahlzeit;
+			packageProductDependencies = (
+				B59608CC2CBD8A7500FD6102 /* AlertToast */,
+			);
+			productName = Mahlzeit;
+			productReference = B57CF6B82CB589D900B98145 /* Mahlzeit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B57CF6C72CB589DA00B98145 /* MahlzeitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B57CF6DF2CB589DA00B98145 /* Build configuration list for PBXNativeTarget "MahlzeitTests" */;
+			buildPhases = (
+				B57CF6C42CB589DA00B98145 /* Sources */,
+				B57CF6C52CB589DA00B98145 /* Frameworks */,
+				B57CF6C62CB589DA00B98145 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B57CF6CA2CB589DA00B98145 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B57CF6CB2CB589DA00B98145 /* MahlzeitTests */,
+			);
+			name = MahlzeitTests;
+			packageProductDependencies = (
+			);
+			productName = MahlzeitTests;
+			productReference = B57CF6C82CB589DA00B98145 /* MahlzeitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B57CF6D12CB589DA00B98145 /* MahlzeitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B57CF6E22CB589DA00B98145 /* Build configuration list for PBXNativeTarget "MahlzeitUITests" */;
+			buildPhases = (
+				B57CF6CE2CB589DA00B98145 /* Sources */,
+				B57CF6CF2CB589DA00B98145 /* Frameworks */,
+				B57CF6D02CB589DA00B98145 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B57CF6D42CB589DA00B98145 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B57CF6D52CB589DA00B98145 /* MahlzeitUITests */,
+			);
+			name = MahlzeitUITests;
+			packageProductDependencies = (
+			);
+			productName = MahlzeitUITests;
+			productReference = B57CF6D22CB589DA00B98145 /* MahlzeitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B57CF6B02CB589D900B98145 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					B57CF6B72CB589D900B98145 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					B57CF6C72CB589DA00B98145 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = B57CF6B72CB589D900B98145;
+					};
+					B57CF6D12CB589DA00B98145 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = B57CF6B72CB589D900B98145;
+					};
+				};
+			};
+			buildConfigurationList = B57CF6B32CB589D900B98145 /* Build configuration list for PBXProject "Mahlzeit" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B57CF6AF2CB589D900B98145;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				B59608CB2CBD8A7500FD6102 /* XCRemoteSwiftPackageReference "AlertToast" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B57CF6B92CB589D900B98145 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B57CF6B72CB589D900B98145 /* Mahlzeit */,
+				B57CF6C72CB589DA00B98145 /* MahlzeitTests */,
+				B57CF6D12CB589DA00B98145 /* MahlzeitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B57CF6B62CB589D900B98145 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B57CF6C62CB589DA00B98145 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B57CF6D02CB589DA00B98145 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B55FCD142CB7EB5600CB46EF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [[ \"$(uname -m)\" == arm64 ]]; then\n export PATH=\"/opt/homebrew/bin:$PATH\"\nfi\nif which swiftlint > /dev/null; then\n swiftlint\nelse\n echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B57CF6B42CB589D900B98145 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B57CF6C42CB589DA00B98145 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B57CF6CE2CB589DA00B98145 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B57CF6CA2CB589DA00B98145 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B57CF6B72CB589D900B98145 /* Mahlzeit */;
+			targetProxy = B57CF6C92CB589DA00B98145 /* PBXContainerItemProxy */;
+		};
+		B57CF6D42CB589DA00B98145 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B57CF6B72CB589D900B98145 /* Mahlzeit */;
+			targetProxy = B57CF6D32CB589DA00B98145 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B57CF6DA2CB589DA00B98145 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B57CF6DB2CB589DA00B98145 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B57CF6DD2CB589DA00B98145 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Mahlzeit/Preview Content\"";
+				DEVELOPMENT_TEAM = 497HVM4FV5;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				ENABLE_USER_SELECTED_FILES = readwrite;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Mahlzeit/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to your camera to take a photo.";
+				INFOPLIST_KEY_NSDocumentsFolderUsageDescription = "We need access to your documents folder to upload a file.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = Yes;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We need access to your photo library to upload an image.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcelmunaba.Mahlzeit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B57CF6DE2CB589DA00B98145 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Mahlzeit/Preview Content\"";
+				DEVELOPMENT_TEAM = 497HVM4FV5;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				ENABLE_USER_SELECTED_FILES = readwrite;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Mahlzeit/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to your camera to take a photo.";
+				INFOPLIST_KEY_NSDocumentsFolderUsageDescription = "We need access to your documents folder to upload a file.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = Yes;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We need access to your photo library to upload an image.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcelmunaba.Mahlzeit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B57CF6E02CB589DA00B98145 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 497HVM4FV5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcelmunaba.MahlzeitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mahlzeit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Mahlzeit";
+			};
+			name = Debug;
+		};
+		B57CF6E12CB589DA00B98145 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 497HVM4FV5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcelmunaba.MahlzeitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mahlzeit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Mahlzeit";
+			};
+			name = Release;
+		};
+		B57CF6E32CB589DA00B98145 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 497HVM4FV5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcelmunaba.MahlzeitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Mahlzeit;
+			};
+			name = Debug;
+		};
+		B57CF6E42CB589DA00B98145 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 497HVM4FV5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.marcelmunaba.MahlzeitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Mahlzeit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B57CF6B32CB589D900B98145 /* Build configuration list for PBXProject "Mahlzeit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B57CF6DA2CB589DA00B98145 /* Debug */,
+				B57CF6DB2CB589DA00B98145 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B57CF6DC2CB589DA00B98145 /* Build configuration list for PBXNativeTarget "Mahlzeit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B57CF6DD2CB589DA00B98145 /* Debug */,
+				B57CF6DE2CB589DA00B98145 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B57CF6DF2CB589DA00B98145 /* Build configuration list for PBXNativeTarget "MahlzeitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B57CF6E02CB589DA00B98145 /* Debug */,
+				B57CF6E12CB589DA00B98145 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B57CF6E22CB589DA00B98145 /* Build configuration list for PBXNativeTarget "MahlzeitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B57CF6E32CB589DA00B98145 /* Debug */,
+				B57CF6E42CB589DA00B98145 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B59608CB2CBD8A7500FD6102 /* XCRemoteSwiftPackageReference "AlertToast" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/elai950/AlertToast.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.3.9;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B59608CC2CBD8A7500FD6102 /* AlertToast */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B59608CB2CBD8A7500FD6102 /* XCRemoteSwiftPackageReference "AlertToast" */;
+			productName = AlertToast;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = B57CF6B02CB589D900B98145 /* Project object */;
+}
